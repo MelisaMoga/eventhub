@@ -11,7 +11,6 @@ EventHub allows users to create and manage local community events — from hikin
 - **Event Management** — Create, update, delete and list events
 - **Category System** — Organize events by category (Hiking, Board Games, Music, etc.)
 - **Participation Workflow** — Users can request to join events with PENDING → APPROVED / REJECTED status
-- **User Profiles** — User registration with bio and activity history
 
 ## Tech Stack
 
@@ -117,4 +116,4 @@ src/main/java/com/melisa/eventhub/
 
 ## Author
 
-**Melisa Moga** — [github.com/MelisaMoga](https://github.com/MelisaMoga)
+**Melisa Nae** — [github.com/MelisaMoga](https://github.com/MelisaMoga)
