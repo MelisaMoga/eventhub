@@ -108,7 +108,7 @@ src/main/java/com/melisa/eventhub/
 
 ## Roadmap
 
-- [ ] JWT Authentication & Authorization
+- [X] JWT Authentication & Authorization
 - [ ] Review and rating system
 - [ ] Email notifications
 - [ ] Search and filter events by location/date

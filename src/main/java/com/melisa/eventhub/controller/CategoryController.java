@@ -2,12 +2,14 @@ package com.melisa.eventhub.controller;
 
 import com.melisa.eventhub.model.Category;
 import com.melisa.eventhub.repository.CategoryRepository;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/api/categories")
+@SecurityRequirement(name = "bearerAuth")
 public class CategoryController {
 
     private final CategoryRepository repository;

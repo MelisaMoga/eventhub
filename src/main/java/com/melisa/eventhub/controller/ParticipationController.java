@@ -4,12 +4,14 @@ import com.melisa.eventhub.model.Participation;
 import com.melisa.eventhub.repository.EventRepository;
 import com.melisa.eventhub.repository.ParticipationRepository;
 import com.melisa.eventhub.repository.UserRepository;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/api/participations")
+@SecurityRequirement(name = "bearerAuth")
 public class ParticipationController {
 
     private final ParticipationRepository participationRepo;

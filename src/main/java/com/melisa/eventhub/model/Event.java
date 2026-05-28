@@ -58,4 +58,6 @@ public class Event {
     public void setEventDate(LocalDateTime eventDate) { this.eventDate = eventDate; }
     public void setMaxParticipants(int maxParticipants) { this.maxParticipants = maxParticipants; }
     public void setCategory(Category category) { this.category = category; }
+    public void setCreatedAt(java.time.LocalDateTime createdAt) { this.createdAt = createdAt; }
+    public void setOrganizer(User organizer) { this.organizer = organizer; }
 }
