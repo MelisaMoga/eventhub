@@ -3,6 +3,7 @@ package com.melisa.eventhub.controller;
 import com.melisa.eventhub.model.Event;
 import com.melisa.eventhub.repository.EventRepository;
 import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 
 @RestController

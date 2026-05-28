@@ -1,10 +1,11 @@
 package com.melisa.eventhub.controller;
 
 import com.melisa.eventhub.model.Participation;
+import com.melisa.eventhub.repository.EventRepository;
 import com.melisa.eventhub.repository.ParticipationRepository;
 import com.melisa.eventhub.repository.UserRepository;
-import com.melisa.eventhub.repository.EventRepository;
 import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 
 @RestController
