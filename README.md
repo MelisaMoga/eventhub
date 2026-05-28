@@ -11,6 +11,7 @@ EventHub allows users to create and manage local community events — from hikin
 - **Event Management** — Create, update, delete and list events
 - **Category System** — Organize events by category (Hiking, Board Games, Music, etc.)
 - **Participation Workflow** — Users can request to join events with PENDING → APPROVED / REJECTED status
+- **JWT Authentication** — Register, login and protected endpoints with Bearer token
 
 ## Tech Stack
 
@@ -70,6 +71,12 @@ Access the H2 console at `http://localhost:8080/h2-console`
 | PUT | `/api/participations/{id}/approve` | Approve a participation |
 | PUT | `/api/participations/{id}/reject` | Reject a participation |
 
+### Authentication
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/auth/register` | Register a new user |
+| POST | `/api/auth/login` | Login and receive JWT token |
+
 ## Example Usage
 
 **Create an event:**
@@ -108,7 +115,7 @@ src/main/java/com/melisa/eventhub/
 
 ## Roadmap
 
-- [ ] JWT Authentication & Authorization
+- [X] JWT Authentication & Authorization
 - [ ] Review and rating system
 - [ ] Email notifications
 - [ ] Search and filter events by location/date
